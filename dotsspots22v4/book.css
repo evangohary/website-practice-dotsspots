@@ -1,0 +1,167 @@
+section{
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: linear-gradient(
+        to right bottom, 
+        #00ffff33,
+        #6494ed59  ),
+        url(./images/oceanrock.jpg);
+        background-size: cover;
+        background-position: center;
+        position: relative;
+        height: 100%;
+
+
+}
+
+
+.booking {
+    width: 90%;
+    max-width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.left {
+width: 60%;
+height: 649px;
+background-image: url("./images/dotsspotsbackgroundv2.PNG");
+background-repeat: no-repeat;
+background-size: cover;
+border-radius: 8px;
+border-style: solid;
+}
+.left3 {
+    width: 60%;
+    height: 649px;
+    background-image: url("./images/peaceful\ pasture2.PNG");
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 8px;
+    border-style: solid;
+    order: 2;
+    }
+
+
+.right {
+    width: 50%;
+    min-height: 400px;
+    background-image: linear-gradient(to top, #5347bb7c 24%, #4291da88 95%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+    border-radius: 8px;
+    color: #ffffff;
+    margin-left:-20px ;
+    margin-bottom: -0px;
+    box-shadow: 2px 2px #1d1d1d;
+    z-index: 900;
+}
+.right3 {
+    width: 50%;
+    min-height: 400px;
+    background-image: linear-gradient(to top, #bb35b42a 24%, #e73a3a81 95%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+    border-radius: 8px;
+    color: #ffffff;
+    margin-right:-20px ;
+    margin-bottom: 20px;
+    z-index: 901;
+}
+.right3 h1{
+    font-size: 40px;
+    font-weight: lighter;
+}
+.right3 p{
+    margin: 20px 0;
+    line-height: 20px;
+}
+
+.right3 a{
+    text-decoration: none;
+    background-color: #f0ffff;
+    color: #131313;
+    padding: 15px 8px;
+    display: inline-block;
+    letter-spacing: 1px;
+    border-radius: 6px;
+}
+.right3 a:hover{
+    transform: scale(1.10);
+    box-shadow: 0 0 40px -10px rgba(0,0,0, 0.25) ;
+}
+
+
+@media only screen and (max-width: 768px){
+    .booking{
+        flex-direction: column;
+        width: 100%;
+    }
+    .left {
+        width: 100%;
+    }
+    .right {
+        width: 100%;
+        margin: 0;  
+    }
+    .left3 {
+        width: 100%;
+    }
+    .right3 {
+        width: 100%;
+        margin: 0;
+        margin-top: 40px;
+    }
+}
+
+
+.right h1{
+    font-size: 40px;
+    font-weight: lighter;
+}
+.right p{
+    margin: 20px 0;
+    line-height: 20px;
+}
+
+.right a{
+    text-decoration: none;
+    background-color: #f0ffff;
+    color: #131313;
+    padding: 15px 8px;
+    display: inline-block;
+    letter-spacing: 1px;
+    border-radius: 6px;
+}
+.right a:hover{
+    transform: scale(1.10);
+    box-shadow: 0 0 40px -10px rgba(0,0,0, 0.25) ;
+}
+
+
+#hipcamp2{
+    
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: linear-gradient(
+        to right bottom, 
+        #00ffff33,
+        #6494ed59  ),
+        url(./images/fire\ tree.jpg);
+        background-size: cover;
+        background-position: center;
+        position: relative;
+        height: 100%;
+}
